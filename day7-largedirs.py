@@ -181,4 +181,5 @@ if __name__ == '__main__':
     # Read in the input
     with open(sys.argv[1]) as f:
         lines = f.readlines()
+    print(part1(lines))
     print(part2(lines))
